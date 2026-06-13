@@ -4,6 +4,7 @@ from fila import Fila
 st.set_page_config(page_title="Clínica Médica")
 
 st.title("🏥 Sistema de Atendimento")
+st.write("Bem-vindo ao sistema!")
 
 # Cria a fila apenas uma vez
 if "fila" not in st.session_state:
